@@ -1,24 +1,17 @@
-# electron-vue3
+# Electron Vue Bootstrap Example File Browser App
 
-## Project setup
-```
-npm install
-```
+The code in this repository is base on the
+[Vue 3 with Electron - Building a desktop applications with Vue and Electron](https://youtu.be/LnRCX074VfA)
+video.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Build via `electron:build` or run via `electron:serve`.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## History
 
-### Lints and fixes files
+```bash
+npx vue create electron-vue3
+cd electron-vue3
+vue add electron-builder
+yarn add bootstrap
+yarn add @electron/remote # ipc
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
